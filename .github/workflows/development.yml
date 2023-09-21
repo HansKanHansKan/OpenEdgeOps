@@ -171,3 +171,4 @@ jobs:
           docker push ${{ vars.DOCKER_REPO_URL }}/${{ vars.APP_GROUP }}/webui:latest-tested
           docker tag ${{ vars.DOCKER_REPO_URL }}/${{ vars.APP_GROUP }}/${{ vars.APP_NAME }}:${{ vars.APP_VERSION }} ${{ vars.DOCKER_REPO_URL }}/${{ vars.APP_GROUP }}/${{ vars.APP_NAME }}:${{ vars.APP_VERSION }}-tested
           docker push ${{ vars.DOCKER_REPO_URL }}/${{ vars.APP_GROUP }}/${{ vars.APP_NAME }}:${{ vars.APP_VERSION }}-tested
+
